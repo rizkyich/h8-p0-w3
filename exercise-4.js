@@ -41,14 +41,11 @@ function dataHandling2(input) {
     simpanTanggal.push(parseInt(bulan[i]));
   }
   
-  /*simpanTanggal.push(parseInt(bulan[1]));
-  simpanTanggal.push(parseInt(bulan[2]));
-  simpanTanggal.push(parseInt(bulan[0]));*/
   simpanTanggal.sort(function (value1, value2) { return value1 < value2 });
-  //console.log(simpanTanggal);
+  
   var simpanHasil = simpanTanggal[2].toString();
   
-  //console.log(simpanHasil);
+  
   var tambah0 = '';
   if (simpanHasil < 10) {
     tambah0 += 0;
