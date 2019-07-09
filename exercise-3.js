@@ -1,10 +1,10 @@
 function dataHandling(arr) {
 
-  for (var i=0; i<input.length; i++){
-    console.log('Nomor ID : ' +input[i][0]);
-    console.log('Nama Lengkap : ' +input[i][1]);
-    console.log('TTL : ' +input[i][2] + ' ' +input[i][3]);
-    console.log('Hobi : ' +input[i][4]);
+  for (var i=0; i<arr.length; i++){
+    console.log('Nomor ID : ' +arr[i][0]);
+    console.log('Nama Lengkap : ' +arr[i][1]);
+    console.log('TTL : ' +arr[i][2] + ' ' +arr[i][3]);
+    console.log('Hobi : ' +arr[i][4]);
     console.log('__________')
   }
   
